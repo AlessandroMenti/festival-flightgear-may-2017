@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright © 2017 Alessandro Menti
+
+     This data is free software; you can redistribute it and/or modify it under
+     the terms of the GNU General Public License as published by the Free
+     Software Foundation; either version 2 of the License, or (at your option)
+     any later version.
+
+     This data is distributed in the hope that it will be useful, but WITHOUT
+     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+     FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
+     more details.
+
+     You should have received a copy of the GNU General Public License along
+     with this data; if not, see <http://www.gnu.org/licenses> or write to
+     the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+     Boston, MA 02110-1301 USA. -->
+<routes>
+    <!-- Additional points -->
+    <addPoint code="ABVIP" point="N01°00'08'',E103°50'32''" />
+    <addPoint code="ADMIM" point="N00°57'33'',E103°30'33''" />
+    <addPoint code="AGROT" point="N01°01'08'',E103°58'08''" />
+    <addPoint code="AGVAR" point="N01°47'19'',E103°41'45''" />
+    <addPoint code="AKMET" point="N01°53'55'',E103°43'39''" />
+    <addPoint code="AROSO" point="N02°08'46'',E103°24'21''" />
+    <addPoint code="ATKAX" point="N00°05'12'',E106°59'46''" />
+    <addPoint code="ATRUM" point="N01°32'56'',E104°00'57''" />
+    <addPoint code="BAVUS" point="N00°00'00'',E109°00'00''" />
+    <addPoint code="DIVSA" point="N01°11'05'',E104°03'03''" />
+    <addPoint code="DOGRA" point="N01°05'25'',E104°14'23''" />
+    <addPoint code="DOKTA" point="N01°26'06'',E104°10'40''" />
+    <addPoint code="DONDI" point="N01°12'52'',E103°58'55''" />
+    <addPoint code="DOSNO" point="N00°47'57'',E104°14'29''" />
+    <addPoint code="DOSPA" point="N01°14'59'',E104°04'41''" />
+    <addPoint code="IBIBI" point="N01°15'03'',E103°57'07''" />
+    <addPoint code="IBIVA" point="N01°13'51'',E103°56'37''" />
+    <addPoint code="IBIXU" point="N01°16'21'',E103°57'40''" />
+    <addPoint code="LEDOX" point="N01°16'42'',E103°56'51''" />
+    <addPoint code="LEGAS" point="N01°15'24'',E103°56'18''" />
+    <addPoint code="LETGO" point="N01°14'11'',E103°55'48''" />
+    <addPoint code="MASBO" point="N02°02'48'',E102°52'51''" />
+    <addPoint code="RUVIK" point="N01°14'22'',E104°20'33''" />
+    <addPoint code="SABKA" point="N01°50'51'',E103°17'13''" />
+    <addPoint code="TOKIM" point="N01°29'33'',E104°03'15''" />
+    <addPoint code="TOPOM" point="N01°29'55'',E104°02'27''" />
+    <addPoint code="VENPA" point="N00°21'41'',E104°49'55''" />
+    <!-- SIDs -->
+    <route name="ADMIM 1A" displayMode="sid">
+        <activeStartRunways>02C</activeStartRunways>
+        <navaids>TOKIM,DOKTA,DOGRA,AGROT,ABVIP,ADMIM,ASUNA</navaids>
+        <line start="WSSS-RW02C" end="TOKIM" text="023°" />
+        <line start="TOKIM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="AGROT" text="255°" />
+        <line start="AGROT" end="ABVIP" text="262°" />
+        <line start="ABVIP" end="ADMIM" text="262°" />
+        <line start="ADMIM" end="ASUNA" text="ADMIM 1A, 276°" arrows="end" />
+        <restriction position="TOKIM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+        <restriction position="ADMIM" notbelow="FL100" />
+    </route>
+    <route name="ADMIM 1E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,DOKTA,DOGRA,AGROT,ABVIP,ADMIM,ASUNA</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="AGROT" text="255°" />
+        <line start="AGROT" end="ABVIP" text="262°" />
+        <line start="ABVIP" end="ADMIM" text="262°" />
+        <line start="ADMIM" end="ASUNA" text="ADMIM 1E, 276°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+        <restriction position="ADMIM" notbelow="FL100" />
+    </route>
+    <route name="ADMIM 2B" displayMode="sid">
+        <activeStartRunways>20C</activeStartRunways>
+        <navaids>IBIXU,IBIBI,IBIVA,SAMKO,ABVIP,ADMIM,ASUNA</navaids>
+        <line start="WSSS-RW20C" end="IBIXU" text="203°" />
+        <line start="IBIXU" end="IBIBI" />
+        <line start="IBIBI" end="IBIVA" />
+        <line start="IBIVA" end="SAMKO" text="203°" />
+        <line start="SAMKO" end="ABVIP" text="204°" />
+        <line start="ABVIP" end="ADMIM" text="262°" />
+        <line start="ADMIM" end="ASUNA" text="ADMIM 2B, 276°" arrows="end" />
+        <restriction position="IBIXU" notbelow="1500" />
+        <restriction position="IBIBI" notbelow="2000" />
+        <restriction position="IBIVA" notbelow="2500" />
+        <restriction position="SAMKO" notabove="6000" />
+        <restriction position="ADMIM" notbelow="FL100" />
+    </route>
+    <route name="ADMIM 2F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,SAMKO,ABVIP,ADMIM,ASUNA</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="SAMKO" text="197°" />
+        <line start="SAMKO" end="ABVIP" text="204°" />
+        <line start="ABVIP" end="ADMIM" text="262°" />
+        <line start="ADMIM" end="ASUNA" text="ADMIM 2F, 276°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="SAMKO" notabove="6000" />
+        <restriction position="ADMIM" notbelow="FL100" />
+    </route>
+    <route name="ANITO 6A" displayMode="sid">
+        <activeStartRunways>02C</activeStartRunways>
+        <navaids>TOKIM,DOKTA,DOGRA,DOSNO,ANITO</navaids>
+        <line start="WSSS-RW02C" end="TOKIM" text="023°" />
+        <line start="TOKIM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="ANITO" text="ANITO 6A, 150°" arrows="end" />
+        <restriction position="TOKIM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="ANITO 6B" displayMode="sid">
+        <activeStartRunways>20C</activeStartRunways>
+        <navaids>IBIXU,IBIBI,IBIVA,DONDI,DIVSA,BTM,DOGRA,DOSNO,ANITO</navaids>
+        <line start="WSSS-RW20C" end="IBIXU" text="203°" />
+        <line start="IBIXU" end="IBIBI" />
+        <line start="IBIBI" end="IBIVA" />
+        <line start="IBIVA" end="DONDI" text="113°" />
+        <line start="DONDI" end="DIVSA" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="ANITO" text="ANITO 6E, 150°" arrows="end" />
+        <restriction position="IBIXU" notbelow="1500" />
+        <restriction position="IBIBI" notbelow="2000" />
+        <restriction position="IBIVA" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notbelow="6000" />
+    </route>
+    <route name="ANITO 6E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,DOKTA,DOGRA,DOSNO,ANITO</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="ANITO" text="ANITO 6E, 150°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="ANITO 6F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,DIVSA,BTM,DOGRA,DOSNO,ANITO</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="ANITO" text="ANITO 6E, 150°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="AROSO 2E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,ATRUM,AKOMA,AKMET,AROSO</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="ATRUM" text="333°" />
+        <line start="ATRUM" end="AKOMA" text="333°" />
+        <line start="AKOMA" end="AKMET" text="308°" />
+        <line start="AKMET" end="AROSO" text="AROSO 2E, 308°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="AKOMA" notbelow="7000" />
+        <restriction position="AKMET" notbelow="FL110" />
+    </route>
+    <route name="AROSO 3F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,DIVSA,DOSPA,VTK,AKOMA,AKMET,AROSO</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="DOSPA" text="023°" />
+        <line start="DOSPA" end="VTK" text="342°" />
+        <line start="VTK" end="AKOMA" text="342°" />
+        <line start="AKOMA" end="AKMET" text="308°" />
+        <line start="AKMET" end="AROSO" text="AROSO 3F, 308°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" maxspeed="230" />
+        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="AKMET" notbelow="FL110" />
+    </route>
+    <route name="BAVUS 1A" displayMode="sid">
+        <activeStartRunways>02C</activeStartRunways>
+        <navaids>TOKIM,DOKTA,DOGRA,DOSNO,VENPA,ATKAX,BAVUS</navaids>
+        <line start="WSSS-RW02C" end="TOKIM" text="023°" />
+        <line start="TOKIM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="VENPA" text="126°" />
+        <line start="VENPA" end="ATKAX" text="097°" />
+        <line start="ATKAX" end="BAVUS" text="BAVUS 1A, 092°" arrows="end" />
+        <restriction position="TOKIM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="BAVUS 1E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,DOKTA,DOGRA,DOSNO,VENPA,ATKAX,BAVUS</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="DOGRA" text="169°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="VENPA" text="126°" />
+        <line start="VENPA" end="ATKAX" text="097°" />
+        <line start="ATKAX" end="BAVUS" text="BAVUS 1E, 092°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="BAVUS 2B" displayMode="sid">
+        <activeStartRunways>20C</activeStartRunways>
+        <navaids>IBIXU,IBIBI,IBIVA,DONDI,DIVSA,BTM,DOGRA,DOSNO,VENPA,ATKAX,BAVUS</navaids>
+        <line start="WSSS-RW20C" end="IBIXU" text="203°" />
+        <line start="IBIXU" end="IBIBI" />
+        <line start="IBIBI" end="IBIVA" />
+        <line start="IBIVA" end="DONDI" text="113°" />
+        <line start="DONDI" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="VENPA" text="126°" />
+        <line start="VENPA" end="ATKAX" text="097°" />
+        <line start="ATKAX" end="BAVUS" text="BAVUS 2B, 092°" arrows="end" />
+        <restriction position="IBIXU" notbelow="1500" />
+        <restriction position="IBIBI" notbelow="2000" />
+        <restriction position="IBIVA" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="BAVUS 2F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,DIVSA,BTM,DOGRA,DOSNO,VENPA,ATKAX,BAVUS</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="DOSNO" text="180°" />
+        <line start="DOSNO" end="VENPA" text="126°" />
+        <line start="VENPA" end="ATKAX" text="097°" />
+        <line start="ATKAX" end="BAVUS" text="BAVUS 2F, 092°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+    </route>
+    <route name="MASBO 2E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,ATRUM,AKOMA,AGVAR,SABKA,MASBO</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="ATRUM" text="333°" />
+        <line start="ATRUM" end="AKOMA" text="333°" />
+        <line start="AKOMA" end="AGVAR" text="278°" />
+        <line start="AGVAR" end="SABKA" text="278°" />
+        <line start="SABKA" end="MASBO" text="MASBO 2E, 296°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="AKOMA" notbelow="7000" />
+        <restriction position="AGVAR" notbelow="FL110" />
+    </route>
+    <route name="MASBO 3F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,DIVSA,DOSPA,VTK,AKOMA,AGVAR,SABKA</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="DOSPA" text="023°" />
+        <line start="DOSPA" end="VTK" text="342°" />
+        <line start="VTK" end="AKOMA" text="342°" />
+        <line start="AKOMA" end="AGVAR" text="278°" />
+        <line start="AGVAR" end="SABKA" text="278°" />
+        <line start="SABKA" end="MASBO" text="MASBO 3F, 296°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" maxspeed="230" />
+        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="AGVAR" notbelow="FL110" />
+    </route>
+    <route name="TOMAN 2A" displayMode="sid">
+        <activeStartRunways>02C</activeStartRunways>
+        <navaids>TOKIM,DOKTA,HOSBA,TOMAN</navaids>
+        <line start="WSSS-RW02L" end="TOKIM" text="023°" />
+        <line start="TOKIM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="HOSBA" text="115°" />
+        <line start="HOSBA" end="TOMAN" text="TOMAN 2A, 089°" arrows="end" />
+        <restriction position="TOKIM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="HOSBA" notbelow="FL070" />
+    </route>
+    <route name="TOMAN 2E" displayMode="sid">
+        <activeStartRunways>02L</activeStartRunways>
+        <navaids>TOPOM,DOKTA,HOSBA,TOMAN</navaids>
+        <line start="WSSS-RW02L" end="TOPOM" text="023°" />
+        <line start="TOPOM" end="DOKTA" text="115°" />
+        <line start="DOKTA" end="HOSBA" text="115°" />
+        <line start="HOSBA" end="TOMAN" text="TOMAN 2E, 089°" arrows="end" />
+        <restriction position="TOPOM" notbelow="2000" />
+        <restriction position="DOKTA" notbelow="4000" />
+        <restriction position="HOSBA" notbelow="FL070" />
+    </route>
+    <route name="TOMAN 3B" displayMode="sid">
+        <activeStartRunways>20C</activeStartRunways>
+        <navaids>IBIXU,IBIBI,IBIVA,DONDI,DIVSA,BTM,DOGRA,RUVIK,HOSBA</navaids>
+        <line start="WSSS-RW20C" end="IBIXU" text="203°" />
+        <line start="IBIXU" end="IBIBI" />
+        <line start="IBIBI" end="IBIVA" />
+        <line start="IBIVA" end="DONDI" text="113°" />
+        <line start="DONDI" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="RUVIK" text="035°" />
+        <line start="RUVIK" end="HOSBA" text="035°" />
+        <line start="HOSBA" end="TOMAN" text="TOMAN 3B, 089°" arrows="end" />
+        <restriction position="IBIXU" notbelow="1500" />
+        <restriction position="IBIBI" notbelow="2000" />
+        <restriction position="IBIVA" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+        <restriction position="RUVIK" notabove="7000" />
+        <restriction position="HOSBA" notbelow="7000" />
+    </route>
+    <route name="TOMAN 3F" displayMode="sid">
+        <activeStartRunways>20R</activeStartRunways>
+        <navaids>LEDOX,LEGAS,LETGO,DIVSA,BTM,DOGRA,RUVIK,HOSBA</navaids>
+        <line start="WSSS-RW20R" end="LEDOX" text="203°" />
+        <line start="LEDOX" end="LEGAS" />
+        <line start="LEGAS" end="LETGO" />
+        <line start="LETGO" end="DIVSA" text="113°" />
+        <line start="DIVSA" end="BTM" text="120°" />
+        <line start="BTM" end="DOGRA" text="113°" />
+        <line start="DOGRA" end="RUVIK" text="035°" />
+        <line start="RUVIK" end="HOSBA" text="035°" />
+        <line start="HOSBA" end="TOMAN" text="TOMAN 3F, 089°" arrows="end" />
+        <restriction position="LEDOX" notbelow="1500" />
+        <restriction position="LEGAS" notbelow="2000" />
+        <restriction position="LETGO" notbelow="2500" />
+        <restriction position="DIVSA" notbelow="4000" />
+        <restriction position="DOGRA" notabove="6000" />
+        <restriction position="RUVIK" notabove="7000" />
+        <restriction position="HOSBA" notbelow="7000" />
+    </route>
+</routes>
