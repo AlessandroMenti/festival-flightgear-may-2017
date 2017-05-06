@@ -18,10 +18,15 @@
 <routes>
     <!-- Additional points -->
     <addPoint code="ABVIP" point="N01°00'08'',E103°50'32''" />
+    <addPoint code="ABVON" point="N01°20'28.18'',E103°58'27.03''" />
     <addPoint code="ADMIM" point="N00°57'33'',E103°30'33''" />
+    <addPoint code="ADNIK" point="N01°16'51.19'',E103°56'55.43''" />
     <addPoint code="AGROT" point="N01°01'08'',E103°58'08''" />
     <addPoint code="AGVAR" point="N01°47'19'',E103°41'45''" />
+    <addPoint code="AKIPO" point="N01°13'56.27'',E103°55'41.59''" />
     <addPoint code="AKMET" point="N01°53'55'',E103°43'39''" />
+    <addPoint code="ANUMA" point="N01°10'53.11'',E103°54'24.35''" />
+    <addPoint code="APIPA" point="N01°06'18.43'',E103°52'28.35''" />
     <addPoint code="AROSO" point="N02°08'46'',E103°24'21''" />
     <addPoint code="ATKAX" point="N00°05'12'',E106°59'46''" />
     <addPoint code="ATRUM" point="N01°32'56'',E104°00'57''" />
@@ -32,13 +37,31 @@
     <addPoint code="DONDI" point="N01°12'52'',E103°58'55''" />
     <addPoint code="DOSNO" point="N00°47'57'',E104°14'29''" />
     <addPoint code="DOSPA" point="N01°14'59'',E104°04'41''" />
+    <addPoint code="EGORA" point="N01°36'21.37'',E104°06'07.23''" />
+    <addPoint code="ELALU" point="N01°34'39.87'',E104°05'24.21''" />
+    <addPoint code="ELBEB" point="N01°28'44.66'',E104°02'54.38''" />
+    <addPoint code="ELMIN" point="N01°25'49.68'',E104°01'40.51''" />
+    <addPoint code="ESBIT" point="N01°22'12.07'',E104°00'08.64''" />
+    <addPoint code="ESLUX" point="N01°18'44.31'',E103°58'40.44''" />
+    <addPoint code="EXOMO" point="N01°04'25.49'',E104°09'33.17''" />
     <addPoint code="IBIBI" point="N01°15'03'',E103°57'07''" />
     <addPoint code="IBIVA" point="N01°13'51'',E103°56'37''" />
     <addPoint code="IBIXU" point="N01°16'21'',E103°57'40''" />
+    <addPoint code="IDUNA" point="N01°23'05.80'',E103°59'33.58''" />
+    <addPoint code="IDURO" point="N01°26'39.84'',E104°01'03.94''" />
+    <addPoint code="IDVAS" point="N01°29'34.66'',E104°02'17.75''" />
+    <addPoint code="IGULA" point="N01°32'32.27'',E104°03'32.66''" />
+    <addPoint code="IPNAK" point="N01°37'11.93'',E104°05'30.83''" />
     <addPoint code="KADAR" point="S00°06'47'',E107°43'42''" />
+    <addPoint code="LAGUS" point="N01°19'15.29'',E103°58'54''" />
+    <addPoint code="LASIN" point="N01°15'38.25'',E103°57'22.39''" />
     <addPoint code="LEDOX" point="N01°16'42'',E103°56'51''" />
     <addPoint code="LEGAS" point="N01°15'24'',E103°56'18''" />
+    <addPoint code="LELON" point="N01°12'43.51'',E103°56'08.62''" />
+    <addPoint code="LEPNA" point="N01°06'48.29'',E103°53'38.82''" />
     <addPoint code="LETGO" point="N01°14'11'',E103°55'48''" />
+    <addPoint code="LIDVA" point="N01°05'05.67'',E103°52'55.38''" />
+    <addPoint code="LUXOL" point="N01°18'02.73'',E103°58'23.38''" />
     <addPoint code="MASBO" point="N02°02'48'',E102°52'51''" />
     <addPoint code="RUVIK" point="N01°14'22'',E104°20'33''" />
     <addPoint code="SABKA" point="N01°50'51'',E103°17'13''" />
@@ -178,7 +201,7 @@
         <line start="AKOMA" end="AKMET" text="308°" />
         <line start="AKMET" end="AROSO" text="AROSO 2A, 308°" arrows="end" />
         <restriction position="TOKIM" notbelow="2000" />
-        <restriction position="AKOMA" notbelow="FL70" />
+        <restriction position="AKOMA" notbelow="7000" />
         <restriction position="AKMET" notbelow="FL110" />
     </route>
     <route name="AROSO 2E" displayMode="sid">
@@ -210,7 +233,7 @@
         <restriction position="IBIBI" notbelow="2000" />
         <restriction position="IBIVA" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
         <restriction position="AKMET" notbelow="FL110" />
     </route>
     <route name="AROSO 3F" displayMode="sid">
@@ -229,7 +252,7 @@
         <restriction position="LEGAS" notbelow="2000" />
         <restriction position="LETGO" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" maxspeed="230" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
         <restriction position="AKMET" notbelow="FL110" />
     </route>
     <route name="BAVUS 1A" displayMode="sid">
@@ -308,7 +331,7 @@
         <line start="AKOMA" end="VMR" />
         <line start="VMR" end="IDSEL" text="IDSEL 1A, 003°" arrows="end" />
         <restriction position="TOKIM" notbelow="2000" />
-        <restriction position="AKOMA" notbelow="FL70" />
+        <restriction position="AKOMA" notbelow="7000" />
     </route>
     <route name="IDSEL 1B" displayMode="sid">
         <activeStartRunways>20C</activeStartRunways>
@@ -327,7 +350,7 @@
         <restriction position="IBIBI" notbelow="2000" />
         <restriction position="IBIVA" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
     </route>
     <route name="IDSEL 1E" displayMode="sid">
         <activeStartRunways>02L</activeStartRunways>
@@ -356,7 +379,7 @@
         <restriction position="LEGAS" notbelow="2000" />
         <restriction position="LETGO" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" maxspeed="230" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
     </route>
     <route name="KADAR 1A" displayMode="sid">
         <activeStartRunways>02C</activeStartRunways>
@@ -435,7 +458,7 @@
         <line start="AGVAR" end="SABKA" text="278°" />
         <line start="SABKA" end="MASBO" text="MASBO 2A, 296°" arrows="end" />
         <restriction position="TOKIM" notbelow="2000" />
-        <restriction position="AKOMA" notbelow="FL70" />
+        <restriction position="AKOMA" notbelow="7000" />
         <restriction position="AGVAR" notbelow="FL110" />
     </route>
     <route name="MASBO 2E" displayMode="sid">
@@ -469,7 +492,7 @@
         <restriction position="IBIBI" notbelow="2000" />
         <restriction position="IBIVA" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
     </route>
     <route name="MASBO 3F" displayMode="sid">
         <activeStartRunways>20R</activeStartRunways>
@@ -488,7 +511,7 @@
         <restriction position="LEGAS" notbelow="2000" />
         <restriction position="LETGO" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" maxspeed="230" />
-        <restriction position="VTK" notbelow="FL70" />
+        <restriction position="VTK" notbelow="7000" />
         <restriction position="AGVAR" notbelow="FL110" />
     </route>
     <route name="TOMAN 2A" displayMode="sid">
@@ -500,7 +523,7 @@
         <line start="HOSBA" end="TOMAN" text="TOMAN 2A, 089°" arrows="end" />
         <restriction position="TOKIM" notbelow="2000" />
         <restriction position="DOKTA" notbelow="4000" />
-        <restriction position="HOSBA" notbelow="FL70" />
+        <restriction position="HOSBA" notbelow="7000" />
     </route>
     <route name="TOMAN 2E" displayMode="sid">
         <activeStartRunways>02L</activeStartRunways>
@@ -511,7 +534,7 @@
         <line start="HOSBA" end="TOMAN" text="TOMAN 2E, 089°" arrows="end" />
         <restriction position="TOPOM" notbelow="2000" />
         <restriction position="DOKTA" notbelow="4000" />
-        <restriction position="HOSBA" notbelow="FL70" />
+        <restriction position="HOSBA" notbelow="7000" />
     </route>
     <route name="TOMAN 3B" displayMode="sid">
         <activeStartRunways>20C</activeStartRunways>
@@ -531,8 +554,8 @@
         <restriction position="IBIVA" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
         <restriction position="DOGRA" notabove="6000" />
-        <restriction position="RUVIK" notabove="FL70" />
-        <restriction position="HOSBA" notbelow="FL70" />
+        <restriction position="RUVIK" notabove="7000" />
+        <restriction position="HOSBA" notbelow="7000" />
     </route>
     <route name="TOMAN 3F" displayMode="sid">
         <activeStartRunways>20R</activeStartRunways>
@@ -551,8 +574,8 @@
         <restriction position="LETGO" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
         <restriction position="DOGRA" notabove="6000" />
-        <restriction position="RUVIK" notabove="FL70" />
-        <restriction position="HOSBA" notbelow="FL70" />
+        <restriction position="RUVIK" notabove="7000" />
+        <restriction position="HOSBA" notbelow="7000" />
     </route>
     <route name="VENIX 1A" displayMode="sid">
         <activeStartRunways>02C</activeStartRunways>
@@ -628,7 +651,7 @@
         <line start="TOKIM" end="AKOMA" text="332°" />
         <line start="AKOMA" end="VMR" text="VMR 5A, 356°" arrows="end" />
         <restriction position="TOKIM" notbelow="2000" />
-        <restriction position="AKOMA" notbelow="FL70" />
+        <restriction position="AKOMA" notbelow="7000" />
     </route>
     <route name="VMR 5E" displayMode="sid">
         <activeStartRunways>02L</activeStartRunways>
@@ -638,7 +661,7 @@
         <line start="ATRUM" end="AKOMA" text="333°" />
         <line start="AKOMA" end="VMR" text="VMR 5E, 356°" arrows="end" />
         <restriction position="TOPOM" notbelow="2000" />
-        <restriction position="AKOMA" notbelow="FL70" />
+        <restriction position="AKOMA" notbelow="7000" />
     </route>
     <route name="VMR 7B" displayMode="sid">
         <activeStartRunways>20C</activeStartRunways>
@@ -656,7 +679,7 @@
         <restriction position="IBIBI" notbelow="2000" />
         <restriction position="IBIVA" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
-        <restriction position="VTX" notbelow="FL70" />
+        <restriction position="VTX" notbelow="7000" />
     </route>
     <route name="VMR 7F" displayMode="sid">
         <activeStartRunways>20R</activeStartRunways>
@@ -673,6 +696,70 @@
         <restriction position="LEGAS" notbelow="2000" />
         <restriction position="LETGO" notbelow="2500" />
         <restriction position="DIVSA" notbelow="4000" />
-        <restriction position="VTX" notbelow="FL70" />
+        <restriction position="VTX" notbelow="7000" />
     </route>
+    <!-- Approaches -->
+    <route name="ICW ILS/DME runway 02L" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>02L</activeLandingRunways>
+        <navaids>SAMKO,APIPA,ANUMA,AKIPO,ADNIK,ABVON</navaids>
+        <loop navpoint="APIPA" inboundHeading="348" length="3" right="false" minHeight="4000" arrows="both" />
+        <line start="APIPA" end="ANUMA" text="023°" />
+        <line start="ANUMA" end="AKIPO" />
+        <line start="AKIPO" end="ADNIK" />
+        <line start="ADNIK" end="ABVON" />
+        <line start="ABVON" end="WSSS-RW20R" arrows="end" />
+        <intercept start="WSSS-RW02L" startHeading="023" radius="8" direction="left" endHeading="335" end="AKOMA" text="335°" color="255,128,128" stroke="dashed" arrows="end" />
+        <loop navpoint="AKOMA" inboundHeading="176" length="3" right="false" minHeight="4000" color="255,128,128" stroke="dashed" arrows="both" />
+        <restriction position="APIPA" notabove="3500" notbelow="3500" />
+        <restriction position="ANUMA" notabove="3500" notbelow="3500" />
+        <restriction position="AKIPO" notabove="2500" notbelow="2500" />
+    </route>
+    <route name="ICW ILS/DME runway 02C" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>02C</activeLandingRunways>
+        <navaids>LIDVA,LEPNA,LELON,LASIN,LUXOL,LAGUS</navaids>
+        <loop navpoint="LIDVA" inboundHeading="348" length="3" right="false" minHeight="4000" arrows="both" />
+        <line start="LIDVA" end="LEPNA" text="023°" />
+        <line start="LEPNA" end="LELON" />
+        <line start="LELON" end="LASIN" />
+        <line start="LASIN" end="LUXOL" />
+        <line start="LUXOL" end="LAGUS" />
+        <line start="LAGUS" end="WSSS-RW20C" arrows="end" />
+        <line start="WSSS-RW02C" end="NYLON" text="023°" color="255,128,128" stroke="dashed" arrows="end" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" minHeight="3000" color="255,128,128" stroke="dashed" arrows="both" />
+        <restriction position="LIDVA" notabove="4500" notbelow="4500" />
+        <restriction position="LEPNA" notabove="4500" notbelow="4500" />
+        <restriction position="LELON" notabove="2500" notbelow="2500" />
+    </route>
+    <route name="ICW ILS/DME runway 20R" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>20R</activeLandingRunways>
+        <navaids>IPNAK,IGULA,IDVAS,IDURO,IDUNA</navaids>
+        <loop navpoint="IPNAK" inboundHeading="203" length="3" right="false" minHeight="3000" arrows="both" />
+        <line start="IPNAK" end="IGULA" text="203°" />
+        <line start="IGULA" end="IDVAS" />
+        <line start="IDVAS" end="IDURO" />
+        <line start="IDURO" end="IDUNA" />
+        <line start="IDUNA" end="WSSS-RW02L" arrows="end" />
+        <line start="WSSS-RW20R" end="4.635NM146@SJ" text="203°" color="255,128,128" stroke="dashed" />
+        <line start="4.635NM146@SJ" end="SAMKO" text="146°" color="255,128,128" stroke="dashed" arrows="end" />
+        <loop navpoint="SAMKO" inboundHeading="348" length="3" right="false" minHeight="5000" color="255,128,128" stroke="dashed" arrows="both" />
+        <restriction position="IPNAK" notabove="3500" notbelow="3500" />
+        <restriction position="IDVAS" notabove="2500" notbelow="2500" />
+    </route>
+    <route name="ICW ILS/DME runway 20C" displayMode="optional" color="255,242,0">
+        <activeLandingRunways>20C</activeLandingRunways>
+        <navaids>EGORA,ELALU,ELBEB,ELMIN,ESBIT</navaids>
+        <loop navpoint="EGORA" inboundHeading="203" length="3" right="false" minHeight="3000" arrows="both" />
+        <line start="EGORA" end="ELALU" text="023°" />
+        <line start="ELALU" end="ELBEB" />
+        <line start="ELBEB" end="ELMIN" />
+        <line start="ELMIN" end="ESBIT" />
+        <line start="ESBIT" end="WSSS-RW02C" arrows="end" />
+        <line start="WSSS-RW20C" end="ESLUX" text="203°" color="255,128,128" stroke="dashed" />
+        <intercept startTurn="ESLUX" startHeading="203" radius="2" direction="left" endHeading="130" end="EXOMO" text="130°" color="255,128,128" stroke="dashed" arrows="end" />
+        <loop navpoint="EXOMO" inboundHeading="338" length="3" right="true" minHeight="4000" color="255,128,128" stroke="dashed" arrows="both" />
+        <restriction position="EGORA" notabove="4500" notbelow="4500" />
+        <restriction position="ELALU" notabove="4500" notbelow="4500" />
+        <restriction position="ELBEB" notabove="2500" notbelow="2500" />
+    </route>
+    <!-- STARs -->
 </routes>
