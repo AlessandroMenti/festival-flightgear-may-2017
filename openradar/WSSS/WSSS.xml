@@ -25,19 +25,28 @@
     <addPoint code="AGVAR" point="N01°47'19'',E103°41'45''" />
     <addPoint code="AKIPO" point="N01°13'56.27'',E103°55'41.59''" />
     <addPoint code="AKMET" point="N01°53'55'',E103°43'39''" />
+    <addPoint code="ALFA" point="N01°30'33'',E103°49'42''" />
     <addPoint code="ANUMA" point="N01°10'53.11'',E103°54'24.35''" />
     <addPoint code="APIPA" point="N01°06'18.43'',E103°52'28.35''" />
     <addPoint code="AROSO" point="N02°08'46'',E103°24'21''" />
     <addPoint code="ATKAX" point="N00°05'12'',E106°59'46''" />
     <addPoint code="ATRUM" point="N01°32'56'',E104°00'57''" />
     <addPoint code="BAVUS" point="N00°00'00'',E109°00'00''" />
+    <addPoint code="BELVA" point="N02°53'41'',E103°38'36''" />
+    <addPoint code="BETBA" point="N01°33'02'',E103°53'31''" />
+    <addPoint code="BIBVI" point="N02°43'36'',E104°06'18''" />
+    <addPoint code="BIDUS" point="N01°35'54'',E103°57'55''" />
+    <addPoint code="BIPOP" point="N01°31'22'',E104°10'18''" />
+    <addPoint code="BOKIP" point="N01°04'21'',E103°43'53''" />
     <addPoint code="DIVSA" point="N01°11'05'',E104°03'03''" />
     <addPoint code="DOGRA" point="N01°05'25'',E104°14'23''" />
     <addPoint code="DOKTA" point="N01°26'06'',E104°10'40''" />
     <addPoint code="DONDI" point="N01°12'52'',E103°58'55''" />
     <addPoint code="DOSNO" point="N00°47'57'',E104°14'29''" />
     <addPoint code="DOSPA" point="N01°14'59'',E104°04'41''" />
+    <addPoint code="DOVAN" point="N01°19'38'',E104°12'49''" />
     <addPoint code="EGORA" point="N01°36'21.37'',E104°06'07.23''" />
+    <addPoint code="ELALO" point="N04°12'40'',E104°33'29''" />
     <addPoint code="ELALU" point="N01°34'39.87'',E104°05'24.21''" />
     <addPoint code="ELBEB" point="N01°28'44.66'',E104°02'54.38''" />
     <addPoint code="ELMIN" point="N01°25'49.68'',E104°01'40.51''" />
@@ -47,12 +56,19 @@
     <addPoint code="IBIBI" point="N01°15'03'',E103°57'07''" />
     <addPoint code="IBIVA" point="N01°13'51'',E103°56'37''" />
     <addPoint code="IBIXU" point="N01°16'21'',E103°57'40''" />
+    <addPoint code="IBULA" point="N00°50'36'',E104°36'00''" />
     <addPoint code="IDUNA" point="N01°23'05.80'',E103°59'33.58''" />
     <addPoint code="IDURO" point="N01°26'39.84'',E104°01'03.94''" />
     <addPoint code="IDVAS" point="N01°29'34.66'',E104°02'17.75''" />
+    <addPoint code="IGNON" point="N01°08'47'',E104°12'57''" />
     <addPoint code="IGULA" point="N01°32'32.27'',E104°03'32.66''" />
+    <addPoint code="IKAGO" point="N00°38'16'',E105°29'31''" />
+    <addPoint code="IKIMA" point="N00°43'14'',E104°55'00''" />
     <addPoint code="IPNAK" point="N01°37'11.93'',E104°05'30.83''" />
     <addPoint code="KADAR" point="S00°06'47'',E107°43'42''" />
+    <addPoint code="KANLA" point="N03°45'56'',E104°36'06''" />
+    <addPoint code="KARTO" point="N01°11'24'',E105°33'43''" />
+    <addPoint code="KEXAS" point="N01°10'19'',E104°48'18''" />
     <addPoint code="LAGUS" point="N01°19'15.29'',E103°58'54''" />
     <addPoint code="LASIN" point="N01°15'38.25'',E103°57'22.39''" />
     <addPoint code="LEDOX" point="N01°16'42'',E103°56'51''" />
@@ -63,8 +79,15 @@
     <addPoint code="LIDVA" point="N01°05'05.67'',E103°52'55.38''" />
     <addPoint code="LUXOL" point="N01°18'02.73'',E103°58'23.38''" />
     <addPoint code="MASBO" point="N02°02'48'',E102°52'51''" />
+    <addPoint code="OBDOS" point="N00°25'03'',E106°55'51''" />
+    <addPoint code="PALGA" point="N01°10'59'',E103°47'59''" />
+    <addPoint code="PAMSI" point="N01°04'59'',E103°48'45''" />
+    <addPoint code="PASPU" point="N01°59'15'',E104°06'18''" />
+    <addPoint code="PIBAP" point="N02°30'23'',E104°06'18''" />
+    <addPoint code="POSUB" point="N01°27'25'',E104°07'48''" />
     <addPoint code="RUVIK" point="N01°14'22'',E104°20'33''" />
     <addPoint code="SABKA" point="N01°50'51'',E103°17'13''" />
+    <addPoint code="SANAT" point="N01°07'49'',E103°59'30''" />
     <addPoint code="SURGA" point="S00°36'57'',E106°31'19''" />
     <addPoint code="TOKIM" point="N01°29'33'',E104°03'15''" />
     <addPoint code="TOPOM" point="N01°29'55'',E104°02'27''" />
@@ -762,4 +785,323 @@
         <restriction position="ELBEB" notabove="2500" notbelow="2500" />
     </route>
     <!-- STARs -->
+    <route name="ARAMA 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>ARAMA,BOBAG,BOKIP,SAMKO</navaids>
+        <line start="ARAMA" end="BOBAG" text="ARAMA 1A, 147°" arrows="end" />
+        <loop navpoint="BOBAG" inboundHeading="082" length="3" right="true" minHeight="FL100" arrows="both" />
+        <line start="BOBAG" end="BOKIP" text="082°" />
+        <line start="BOKIP" end="SAMKO" text="082°" arrows="end" />
+        <restriction position="ARAMA" maxspeed="250" />
+        <restriction position="BOBAG" maxspeed="220" notbelow="10000" />
+        <restriction position="BOKIP" notbelow="6000" />
+        <restriction position="SAMKO" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="ARAMA 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>ARAMA,BOBAG,SAMKO,BTM,DOVAN,BIPOP,NYLON</navaids>
+        <line start="ARAMA" end="BOBAG" text="ARAMA 1B, 147°" arrows="end" />
+        <loop navpoint="BOBAG" inboundHeading="082" length="3" right="true" minHeight="FL100" arrows="both" />
+        <line start="BOBAG" end="SAMKO" text="082°" />
+        <line start="SAMKO" end="BTM" text="080°" />
+        <line start="BTM" end="DOVAN" text="023°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="ARAMA" maxspeed="250" />
+        <restriction position="BOBAG" maxspeed="220" notbelow="10000" />
+        <restriction position="BTM" maxspeed="220" notbelow="7000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="ASUNA 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>ASUNA,BOBAG,BOKIP,SAMKO</navaids>
+        <line start="ASUNA" end="BOBAG" text="ASUNA 1A, 082°" arrows="end" />
+        <loop navpoint="BOBAG" inboundHeading="082" length="3" right="true" minHeight="FL100" arrows="both" />
+        <line start="BOBAG" end="BOKIP" text="082°" />
+        <line start="BOKIP" end="SAMKO" text="082°" arrows="end" />
+        <restriction position="ASUNA" maxspeed="250" />
+        <restriction position="BOBAG" maxspeed="220" notbelow="10000" />
+        <restriction position="BOKIP" notbelow="6000" />
+        <restriction position="SAMKO" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="ASUNA 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>ASUNA,BOBAG,SAMKO,BTM,DOVAN,BIPOP,NYLON</navaids>
+        <line start="ASUNA" end="BOBAG" text="ASUNA 1B, 082°" arrows="end" />
+        <loop navpoint="BOBAG" inboundHeading="082" length="3" right="true" minHeight="FL100" arrows="both" />
+        <line start="BOBAG" end="SAMKO" text="082°" />
+        <line start="SAMKO" end="BTM" text="080°" />
+        <line start="BTM" end="DOVAN" text="023°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="ASUNA" maxspeed="250" />
+        <restriction position="BOBAG" maxspeed="220" notbelow="10000" />
+        <restriction position="BTM" maxspeed="220" notbelow="7000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="BELVA 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>BELVA,BIBVI,PIBAP,PASPU,NYLON,POSUB,SANAT</navaids>
+        <line start="BELVA" end="BIBVI" text="BELVA 1A, 110°" />
+        <line start="BIBVI" end="PIBAP" text="180°" arrows="end" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" arrows="both" />
+        <line start="NYLON" end="POSUB" text="172°" />
+        <line start="POSUB" end="SANAT" text="203°" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" />
+        <restriction position="POSUB" maxspeed="220" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="BELVA 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>BELVA,BIBVI,PIBAP,PASPU,NYLON</navaids>
+        <line start="BELVA" end="BIBVI" text="BELVA 1B, 110°" />
+        <line start="BIBVI" end="PIBAP" text="180°" arrows="end" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" arrows="both" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" />
+    </route>
+    <route name="ELALO 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>ELALO,KANLA,KILOT,PIBAP,PASPU,NYLON,POSUB,SANAT</navaids>
+        <loop navpoint="ELALO" inboundHeading="174" length="4.5" right="false" arrows="both" />
+        <line start="ELALO" end="KANLA" text="ELALO 1A, 174°" />
+        <line start="KANLA" end="KILOT" text="174°" arrows="end" />
+        <loop navpoint="KILOT" inboundHeading="227" length="4.5" right="false" arrows="both" />
+        <line start="KILOT" end="PIBAP" text="227°" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" arrows="both" />
+        <line start="NYLON" end="POSUB" text="172°" />
+        <line start="POSUB" end="SANAT" text="203°" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" />
+        <restriction position="POSUB" maxspeed="220" notbelow="6000" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="ELALO 1B" displayMode="star">
+        <activeLandingRunways>20R,20CC</activeLandingRunways>
+        <navaids>ELALO,KANLA,KILOT,PIBAP,PASPU,NYLON</navaids>
+        <loop navpoint="ELALO" inboundHeading="174" length="4.5" right="false" arrows="both" />
+        <line start="ELALO" end="KANLA" text="ELALO 1A, 174°" />
+        <line start="KANLA" end="KILOT" text="174°" arrows="end" />
+        <loop navpoint="KILOT" inboundHeading="227" length="4.5" right="false" arrows="both" />
+        <line start="KILOT" end="PIBAP" text="227°" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" arrows="end" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" notbelow="6000" />
+        <restriction position="NYLON" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="KARTO 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>TOMAN,KARTO,KEXAS,LAVAX,IGNON,SANAT,SAMKO</navaids>
+        <line start="TOMAN" end="KARTO" text="KARTO 1A, 233°" arrows="end" />
+        <loop navpoint="KARTO" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="KARTO" end="KEXAS" text="269°" />
+        <line start="KEXAS" end="LAVAX" text="269°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="IGNON" text="266°" />
+        <line start="IGNON" end="SANAT" text="266°" />
+        <line start="SANAT" end="SAMKO" stroke="dashed" arrows="end" />
+        <restriction position="KEXAS" maxspeed="250" notbelow="FL160" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="IGNON" notbelow="7000" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="KARTO 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>TOMAN,KARTO,KEXAS,LAVAX,RUVIK,DOVAN,BIPOP,NYLON</navaids>
+        <line start="TOMAN" end="KARTO" text="KARTO 1B, 233°" arrows="end" />
+        <loop navpoint="KARTO" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="KARTO" end="KEXAS" text="269°" />
+        <line start="KEXAS" end="LAVAX" text="269°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="RUVIK" text="304°" />
+        <line start="RUVIK" end="DOVAN" text="304°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="KEXAS" maxspeed="250" notbelow="FL160" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="RUVIK" notbelow="8000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="LEBAR 2A" displayMode="star">
+        <activeLandingRunways>02L</activeLandingRunways>
+        <navaids>PASPU,PU,SJ,PALGA,PAMSI,SAMKO</navaids>
+        <line start="PASPU" end="PU" text="LEBAR 2A, 197°" />
+        <line start="PU" end="SJ" text="202°" />
+        <line start="SJ" end="PALGA" text="234°" />
+        <line start="PALGA" end="PAMSI" text="173°" arrows="end" />
+        <line start="PAMSI" end="SAMKO" text="082°" arrows="end" />
+        <restriction position="PASPU" maxspeed="220" />
+        <restriction position="PU" notbelow="7000" />
+        <restriction position="SJ" notbelow="7000" />
+        <restriction position="PALGA" maxspeed="220" />
+        <restriction position="SAMKO" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="LEBAR 2B" displayMode="star">
+        <activeLandingRunways>20R</activeLandingRunways>
+        <navaids>BOBAG,SJ,PU,BETBA,BIDUS,NYLON</navaids>
+        <line start="BOBAG" end="SJ" text="LEBAR 2B, 063°" arrows="end" />
+        <line start="REMES" end="SJ" text="LEBAR 2B, 348°" arrows="end" />
+        <line start="SJ" end="PU" text="022°" />
+        <line start="PU" end="BETBA" text="342°" arrows="end" />
+        <line start="BETBA" end="BIDUS" text="057°" />
+        <line start="BIDUS" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="BOBAG" maxspeed="220" notbelow="10000" />
+        <restriction position="REMES" maxspeed="220" />
+        <restriction position="SJ" notbelow="7000" />
+        <restriction position="PU" maxspeed="220" notbelow="7000" />
+        <restriction position="BIDUS" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="LELIB 3B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>ARAMA,LELIB,JB,ALFA,BIDUS,NYLON</navaids>
+        <line start="ARAMA" end="LELIB" text="LELIB 3B, 118°" />
+        <line start="LELIB" end="JB" text="082°" />
+        <line start="JB" end="ALFA" text="086°" />
+        <line start="ALFA" end="BIDUS" text="057°" />
+        <line start="BIDUS" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="ARAMA" maxspeed="250" />
+        <restriction position="LELIB" notbelow="10000" />
+        <restriction position="JB" maxspeed="220" notbelow="7000" />
+        <restriction position="ALFA" notbelow="6000" />
+        <restriction position="BIDUS" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="MABAL 2A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>MABAL,KILOT,PIBAP,PASPU,NYLON,POSUB,SANAT</navaids>
+        <loop navpoint="MABAL" inboundHeading="231" length="4.5" right="false" arrows="both" />
+        <line start="MABAL" end="KILOT" text="MABAL 2A, 231°" arrows="end" />
+        <loop navpoint="KILOT" inboundHeading="227" length="4.5" right="false" arrows="both" />
+        <line start="KILOT" end="PIBAP" text="227°" arrows="end" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" arrows="both" />
+        <line start="NYLON" end="POSUB" text="172°" />
+        <line start="POSUB" end="SANAT" text="203°" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" />
+        <restriction position="POSUB" maxspeed="220" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="MABAL 2B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>MABAL,KILOT,PIBAP,PASPU,NYLON</navaids>
+        <loop navpoint="MABAL" inboundHeading="231" length="3" right="false" arrows="both" />
+        <line start="MABAL" end="KILOT" text="MABAL 2A, 231°" arrows="end" />
+        <loop navpoint="KILOT" inboundHeading="227" length="3" right="false" arrows="both" />
+        <line start="KILOT" end="PIBAP" text="227°" arrows="end" />
+        <line start="PIBAP" end="PASPU" text="180°" />
+        <line start="PASPU" end="NYLON" text="180°" />
+        <loop navpoint="NYLON" inboundHeading="203" length="3" right="false" arrows="both" />
+        <restriction position="PIBAP" maxspeed="250" notbelow="FL210" />
+        <restriction position="PASPU" maxspeed="220" />
+    </route>
+    <route name="OBDOS 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>OBDOS,IKAGO,IKIMA,IBULA,LAVAX,IGNON,SANAT,SAMKO</navaids>
+        <line start="OBDOS" end="IKAGO" text="OBDOS 1A, 279°" />
+        <line start="IKAGO" end="IKIMA" arrows="end" />
+        <loop navpoint="IKIMA" inboundHeading="291" length="4.5" right="true" arrows="both" />
+        <line start="IKIMA" end="IBULA" text="291°" />
+        <line start="IBULA" end="LAVAX" text="335°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="IGNON" text="266°" />
+        <line start="IGNON" end="SANAT" text="266°" />
+        <line start="SANAT" end="SAMKO" stroke="dashed" arrows="end" />
+        <restriction position="IBULA" maxspeed="250" notbelow="FL180" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="IGNON" notbelow="7000" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="OBDOS 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>OBDOS,IKAGO,IKIMA,IBULA,LAVAX,RUVIK,DOVAN,BIPOP,NYLON</navaids>
+        <line start="OBDOS" end="IKAGO" text="OBDOS 1B, 279°" />
+        <line start="IKAGO" end="IKIMA" arrows="end" />
+        <loop navpoint="IKIMA" inboundHeading="291" length="4.5" right="true" arrows="both" />
+        <line start="IKIMA" end="IBULA" text="291°" />
+        <line start="IBULA" end="LAVAX" text="335°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="RUVIK" text="304°" />
+        <line start="RUVIK" end="DOVAN" text="304°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="IBULA" maxspeed="250" notbelow="FL180" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="RUVIK" notbelow="8000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="REPOV 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>REPOV,REMES,SAMKO</navaids>
+        <loop navpoint="REPOV" inboundHeading="348" length="4.5" right="false" arrows="both" />
+        <line start="REPOV" end="REMES" text="REPOV 1A, 348°" arrows="end" />
+        <loop navpoint="REMES" inboundHeading="348" length="3" right="true" arrows="both" />
+        <line start="REMES" end="SAMKO" text="348°" arrows="end" />
+        <restriction position="REPOV" maxspeed="250" notbelow="FL210" />
+        <restriction position="REMES" maxspeed="220" notbelow="6000" />
+        <restriction position="SAMKO" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="REPOV 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>REPOV,REMES,BTM,DOVAN,BIPOP,NYLON</navaids>
+        <loop navpoint="REPOV" inboundHeading="348" length="4.5" right="false" arrows="both" />
+        <line start="REPOV" end="REMES" text="REPOV 1A, 348°" arrows="end" />
+        <loop navpoint="REMES" inboundHeading="348" length="3" right="true" arrows="both" />
+        <line start="REMES" end="BTM" text="023°" />
+        <line start="BTM" end="DOVAN" text="023°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="REPOV" maxspeed="250" notbelow="FL210" />
+        <restriction position="REMES" maxspeed="220" />
+        <restriction position="BTM" maxspeed="220" notbelow="7000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
+    <route name="SURGA 1A" displayMode="star">
+        <activeLandingRunways>02L,02C</activeLandingRunways>
+        <navaids>SURGA,IKAGO,IKIMA,IBULA,LAVAX,IGNON,SANAT</navaids>
+        <line start="SURGA" end="IKAGO" text="SURGA 1A, 320°" />
+        <line start="IKAGO" end="IKIMA" text="279°" arrows="end" />
+        <loop navpoint="IKIMA" inboundHeading="291" length="4.5" right="true" arrows="both" />
+        <line start="IKIMA" end="IBULA" text="291°" />
+        <line start="IBULA" end="LAVAX" text="335°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="IGNON" text="266°" />
+        <line start="IGNON" end="SANAT" text="266°" arrows="end" />
+        <restriction position="IBULA" maxspeed="250" notbelow="FL180" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="IGNON" notbelow="7000" />
+        <restriction position="SANAT" maxspeed="190" notbelow="4000" />
+    </route>
+    <route name="SURGA 1B" displayMode="star">
+        <activeLandingRunways>20R,20C</activeLandingRunways>
+        <navaids>SURGA,IKAGO,IKIMA,IBULA,LAVAX,RUVIK,DOVAN,BIPOP,NYLON</navaids>
+        <line start="SURGA" end="IKAGO" text="SURGA 1B, 320°" />
+        <line start="IKAGO" end="IKIMA" text="279°" arrows="end" />
+        <loop navpoint="IKIMA" inboundHeading="291" length="4.5" right="true" arrows="both" />
+        <line start="IKIMA" end="IBULA" text="291°" />
+        <line start="IBULA" end="LAVAX" text="335°" arrows="end" />
+        <loop navpoint="LAVAX" inboundHeading="269" length="3" right="false" arrows="both" />
+        <line start="LAVAX" end="RUVIK" text="304°" />
+        <line start="RUVIK" end="DOVAN" text="304°" />
+        <line start="DOVAN" end="BIPOP" text="348°" />
+        <line start="BIPOP" end="NYLON" stroke="dashed" arrows="end" />
+        <restriction position="IBULA" maxspeed="250" notbelow="FL180" />
+        <restriction position="LAVAX" maxspeed="220" />
+        <restriction position="RUVIK" notbelow="8000" />
+        <restriction position="DOVAN" notbelow="4000" />
+        <restriction position="BIPOP" maxspeed="190" notbelow="3000" />
+    </route>
 </routes>
